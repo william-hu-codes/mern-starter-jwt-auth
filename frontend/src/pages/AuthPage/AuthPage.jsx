@@ -7,7 +7,7 @@ export default function AuthPage ({ setUser }) {
     const [showSignUp, setShowSignUp] = useState(false)
     
     function handleAuthClick() {
-        showSignUp ? setShowSignUp(false) : setShowSignUp(true)
+        setShowSignUp(!showSignUp)
     }
 
 return (

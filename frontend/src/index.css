@@ -1,6 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
 :root {
-  --baby-blue: rgba(150, 194, 222, 1.0);
-  --sky-blue: rgba(50, 152, 219, 1.0);
   --background: beige;
 }
 
